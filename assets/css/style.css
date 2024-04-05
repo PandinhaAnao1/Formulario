@@ -1,0 +1,31 @@
+*{
+   
+    font-family: "Quicksand", sans-serif;
+    --BRANCO: #FFFFFF;
+    --AZUL:#1C6E8C;
+    --AZUL-ESCURO:#274156;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main{
+    width: 360px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main header{
+    display: flex;
+    text-align: start;
+    padding: 10px;
+    background-color: var(--AZUL);
+    color: var(--BRANCO) ;
+    font-family: "Inter";
+}
+.main header h1{
+    font-size: 24px;
+}
+text-camps
