@@ -25,7 +25,67 @@ body{
     color: var(--BRANCO) ;
     font-family: "Inter";
 }
+form{
+   
+    border: solid black 2px;
+}
+form .text-camps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form div label{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 .main header h1{
     font-size: 24px;
 }
-text-camps
+    
+
+.text-camps input{
+    display: flex;
+    align-items: start;
+}
+.text-camps input{
+    width: 320px;
+    height: 39px;
+}
+
+.sexo{
+    display: flex;
+    align-items: start;
+}
+
+.sexo-options{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    color: var(--BRANCO);
+    background-color: var(--AZUL-ESCURO);
+    width: 319px;
+    height: 44px;
+}
+.sexo-options {
+    padding: 10px;
+}
+
+.checkbox{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+

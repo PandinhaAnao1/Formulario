@@ -16,28 +16,32 @@
                 <label for = "campo-nome">Nome:</label>
                 <input type="text" id="campo-nome" placeholder="Ex.: Maria de Oliveira"/>
             </div>
-            <div>
+            <div class="text-camps">
                 <label for = "campo-email">E-mail:</label>
                 <input type="text" id="campo-email" placeholder="Ex.: maria.oliveira@gmail.com"/>
             </div>
-            <div>
-                <label for = "campo-sexo-m">Sexo:</label>
-                <input type="radio" id="campo-sexo-m"/>           
-                <label for = "">Masculino:</label>
-                <input type="radio" id="campo-sexo-f"/>
-                <label for = "campo-sexo-f">Feminino:</label>
+            <div class = "sexo">
+                <label for = "campo-sexo-m" id="sexo-label">Sexo:</label>
+                <div class="sexo-options">
+                    <input type="radio" id="campo-sexo-m" name="sexo"/>           
+                    <label for = "">Masculino:</label>
+                    <input type="radio" id="campo-sexo-f" name="sexo"/>
+                    <label for = "campo-sexo-f">Feminino:</label>
+                </div>
             </div>
-
-            <div>
+            <div class="text-camps">
                 <label for = "campo-curso">Curso:</label>
                 <input type="text" id="campo-curso" placeholder="HTML e CSS"/>
             </div>
-            <div>
+            <div class="text-camps">
                 <label for = "campo-atendimento">Descreva o atendimento especial:</label>
                 <input type="text" id="campo-atendimento"/>
             </div>
+            <div class="checkbox">
+                <input type="checkbox" name="acordo" id="">
+                <label>Estou de acordo com o termos de serviço</label>
+            </div>
             <div>
-
                 <button>Realizar inscrição</button>
             </div>
         </form>
